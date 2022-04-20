@@ -460,6 +460,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family: "Satisfy", cursive;
 }
 
+
 #fh5co-about .img-wrap img {
   margin-bottom: 30px;
 }
@@ -559,8 +560,12 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
   font-family: "Satisfy", cursive;
 }
+
 #fh5co-featured-testimony .img-to-responsive img {
   margin-bottom: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 @media screen and (max-width: 768px) {
   #fh5co-featured-testimony .img-to-responsive img {
