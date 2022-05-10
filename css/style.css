@@ -1810,5 +1810,10 @@ textarea {
 .bootstrap-datetimepicker-widget {
   color: #000 !important;
 }
+.header h1{
+  text-align: center;
+  color: #fff;
+  margin: 70px 0;
+}
 
 /*# sourceMappingURL=style.css.map */
