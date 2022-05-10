@@ -571,8 +571,14 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
   font-family: "Satisfy", cursive;
 }
+#fh5co-featured-testimony .img-to-responsive{
+  height: 400px;
+}
 #fh5co-featured-testimony .img-to-responsive img {
-  margin-bottom: 20px;
+  /* display: none; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 @media screen and (max-width: 768px) {
   #fh5co-featured-testimony .img-to-responsive img {
@@ -590,10 +596,10 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-featured-testimony blockquote p {
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 30px;
+  line-height: 30px;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
   color: #fff;
 }
 @media screen and (max-width: 992px) {
